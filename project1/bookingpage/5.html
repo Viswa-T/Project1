@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("C:/Users/viswa/Desktop/html/project1/images/ship.png");
+        font-family: Arial, sans-serif;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        text-align: center;
+        color: white;
+        width: 80%;
+      }
+
+      h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+      }
+
+      .option {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        padding: 20px;
+        width: 45%;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+      }
+
+      .option h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .option p {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .option .price {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: yellow;
+      }
+
+      .button {
+        background-color: skyblue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .button:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Choose Your Plan</h2>
+      <div class="row">
+       
+        <div class="option">
+          <h3>Premium - Rs. 1,50,000</h3>
+          <p><strong>Features:</strong></p>
+          <ul type="square">
+            <li>First Class</li>
+            <li>Priority Check-In</li>
+            <li>Spacious & Luxurious Seat</li>
+            <li>Enhanced Food and Drink options</li>
+          </ul>
+          <a href="front.html" class="button">BOOK NOW</a>
+        </div>
+
+        
+        <div class="option">
+          <h3>Basic - Rs. 46,999</h3>
+          <p><strong>Features:</strong></p>
+          <ul>
+            <li>Basic Class</li>
+            <li>Smaller Seats</li>
+            <li>Less Legroom</li>
+            <li>Standard Food and Drink options</li>
+          </ul>
+          <a href="front.html" class="button">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
